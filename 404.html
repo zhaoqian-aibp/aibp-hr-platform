@@ -1,14 +1,13 @@
-<!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/aibp-hr-platform/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AIBP — AI × HR 正在发生</title>
-    <script type="module" crossorigin src="/aibp-hr-platform/assets/index-BX9b_uce.js"></script>
-    <link rel="stylesheet" crossorigin href="/aibp-hr-platform/assets/index-Dpvo9qNy.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AIBP</title>
+  <script>
+    // SPA fallback: redirect 404 to root with the path preserved as hash
+    sessionStorage.redirect = location.pathname;
+    location.replace('/aibp-hr-platform/' + (sessionStorage.redirect ? '?redirect=' + encodeURIComponent(sessionStorage.redirect.replace('/aibp-hr-platform', '')) : ''));
+  </script>
+</head>
+<body></body>
 </html>
