@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "AI-HR新闻摘要",
+    "icon": "📰",
+    "category": "数据分析",
+    "author": "AIBP官方",
+    "description": "每周自动抓取 AI 在 HR 领域的最新新闻，生成精华摘要"
+  },
+  {
+    "id": 2,
+    "name": "AI面试助手",
+    "icon": "🎯",
+    "category": "招聘",
+    "author": "AIBP官方",
+    "description": "根据 JD 和候选人简历自动生成定制化面试问题"
+  },
+  {
+    "id": 3,
+    "name": "HR数据看板",
+    "icon": "📊",
+    "category": "数据分析",
+    "author": "AIBP官方",
+    "description": "连接数据源生成多维可视化看板"
+  },
+  {
+    "id": 4,
+    "name": "JD智能生成器",
+    "icon": "📝",
+    "category": "招聘",
+    "author": "AIBP官方",
+    "description": "输入岗位信息，自动生成专业 JD"
+  },
+  {
+    "id": 5,
+    "name": "人员分析报告",
+    "icon": "👥",
+    "category": "数据分析",
+    "author": "AIBP官方",
+    "description": "上传人员数据，自动生成多维分析报告"
+  },
+  {
+    "id": 6,
+    "name": "员工访谈分析",
+    "icon": "💬",
+    "category": "文化组织",
+    "author": "AIBP官方",
+    "description": "分析访谈记录，提取关键洞察"
+  },
+  {
+    "id": 7,
+    "name": "薪酬对标分析",
+    "icon": "💰",
+    "category": "数据分析",
+    "author": "AIBP官方",
+    "description": "输入岗位和薪酬数据，生成市场对标报告"
+  },
+  {
+    "id": 8,
+    "name": "培训体系搭建",
+    "icon": "🎓",
+    "category": "培训发展",
+    "author": "AIBP官方",
+    "description": "从零搭建完整的培训体系"
+  }
+]
